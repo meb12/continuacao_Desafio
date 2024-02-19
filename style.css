@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+.cor-body {
+  background-color: #eeeeee;
+}
+.tamanho-section {
+  width: 100%;
+  height: 100%;
+}
+
+.tamanho-foto-gr {
+  width: 240px;
+  height: 240px;
+}
+
+.tamanho-foto-selo {
+  width: 300px;
+  height: 120px;
+}
+.cor-post {
+  color: #87cefa;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.cor-post:hover {
+  color: white;
+}
+.cor-icon {
+  color: blue;
+  height: 30px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.cor-icon:hover {
+  color: white;
+}
+
+.tamanho-botao {
+  width: 128px;
+  height: 30px;
+  color: gray;
+}
+@media screen and (max-width: 768px) {
+  .tamanho-botao {
+    width: 90%;
+    height: 90%;
+    color: gray;
+  }
+  .cor-post {
+    font-size: 14px;
+  }
+  .tamanho-foto-gr {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+.cor-fundo {
+  background-color: black;
+}
+
+.tamanho-foto {
+  width: 60px;
+  height: 42px;
+}
+
+.tamanho-botao:hover {
+  color: white;
+}
+
+.tamanho-letra {
+  font-size: 12px;
+}
+
+.tamanho-botao-2 {
+  width: 128px;
+  height: 30px;
+  color: black;
+  opacity: 0.7;
+}
+
+.tamanho-botao-2:hover {
+  color: white;
+}
+.cor-azul {
+  color: #3077ab;
+}
+.cor-laranja {
+  color: #fe7a00;
+  margin-left: -10px;
+}
+.botao-conta {
+  width: 60%;
+  color: black;
+}
+.botao-conta:hover {
+  border-color: black;
+}
+.letra-modal {
+  font-weight: bold;
+}
+.cor-modal {
+  background-color: #5ca6db;
+}
